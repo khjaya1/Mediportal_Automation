@@ -1,0 +1,35 @@
+{
+  "itemSummary": {
+    "navigation": {
+      "menuText": "Finance",
+      "linkText": "Item Summary",
+      "pageTitle": "Item Summary",
+      "pageDescription": "This report lists a summary of all services created within the specified date period"
+    },
+    "searchTests": {
+      "practitionerName": "Kannan",
+      "fullName": "Kannan Ramanathan"
+    },
+    "gridColumns": {
+      "sortableColumns": [
+        "Practitioner Name",
+        "No. Of Patients",
+        "Invoice Count",
+        "Service Count",
+        "Total Fee"
+      ],
+      "nonSortableColumns": ["View"]
+    },
+    "dateRange": {
+      "defaultText": "Last 7 Days",
+      "labels": {
+        "from": "From",
+        "to": "to"
+      }
+    },
+    "export": {
+      "buttonId": "btn_export",
+      "formats": ["CSV", "PDF", "Excel"]
+    }
+  }
+}
